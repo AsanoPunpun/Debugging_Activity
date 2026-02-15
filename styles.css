@@ -1,0 +1,52 @@
+/* styles.css */
+
+/*Openning curly braces for body was missing*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    overflow-x: hidden;
+}
+
+/*Selecter spelling wrong, changed from heade" to "header"*/
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/*li should not be included since its mentioned that list style type is none and its for ul*/
+nav ul li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px;
+}
+
+/*No closing curly braces*/
+main section {
+    margin: 20px;
+}
+/*No semi-colon for bottom:0 so I added one*/
+footer {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100vw;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    /*Missing Colon for text-align*/
+    text-align: center;
+}
