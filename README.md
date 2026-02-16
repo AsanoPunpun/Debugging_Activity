@@ -1,10 +1,10 @@
 # CC14-Unit-3-Debugging-Activity
 
 # HTML
-- Closed missing <a> tag for the "About" link
-- Added missing </h2> for "About Us" heading
-- Closed the <form> tag properly
-- Added closing </input> for the name and email input fields
+- Closed missing "a" tag for the "About" link
+- Added missing "/h2" for "About Us" heading
+- Closed the "form" tag properly
+- Added closing "/input" for the name and email input fields
 - Removed inline style="color: brown;"
 # CSS
 - Added missing curly braces for body selector
